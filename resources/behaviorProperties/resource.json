@@ -1,0 +1,33 @@
+{
+  "behaviors": {
+    "ButtonBehavior": {
+      "scriptId": "4",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "callback",
+          "type": "string"
+        },
+        {
+          "name": "padding",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "spriteAsChild",
+          "type": "boolean"
+        },
+        {
+          "name": "allowMultiple",
+          "type": "boolean"
+        }
+      ]
+    },
+    "InterfaceBehavior": {
+      "scriptId": "13",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

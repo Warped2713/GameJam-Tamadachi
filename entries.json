@@ -1,0 +1,103 @@
+{
+  "nextEntryId": 18,
+  "nodes": [
+    {
+      "id": "14",
+      "name": "Collision2D",
+      "type": "script"
+    },
+    {
+      "id": "1",
+      "name": "Root",
+      "type": null,
+      "children": [
+        {
+          "id": "2",
+          "name": "HUD",
+          "type": null,
+          "children": [
+            {
+              "id": "3",
+              "name": "Button",
+              "type": null,
+              "children": [
+                {
+                  "id": "4",
+                  "name": "ButtonBehavior",
+                  "type": "script"
+                },
+                {
+                  "id": "16",
+                  "name": "Sprite96",
+                  "type": "sprite"
+                },
+                {
+                  "id": "17",
+                  "name": "FullScreen",
+                  "type": "sprite"
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "13",
+              "name": "InterfaceBehavior",
+              "type": "script"
+            },
+            {
+              "id": "15",
+              "name": "Font",
+              "type": "font"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Entities",
+          "type": null,
+          "children": [
+            {
+              "id": "8",
+              "name": "Items",
+              "type": null,
+              "children": []
+            },
+            {
+              "id": "9",
+              "name": "Characters",
+              "type": null,
+              "children": [
+                {
+                  "id": "10",
+                  "name": "Player",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "11",
+                      "name": "Placeholder",
+                      "type": "sprite"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Scene",
+      "type": "scene"
+    },
+    {
+      "id": "0",
+      "name": "Game",
+      "type": "script"
+    }
+  ]
+}
