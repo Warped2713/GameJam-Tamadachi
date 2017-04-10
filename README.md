@@ -13,8 +13,7 @@ Just like the old tamagotchi toys, except it plays in your browser!
 [Flying Katsu](https://flyingkatsu.itch.io/)
 
 ### SFX
-[Little Robot Sound Factory](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:5673)'s free asset packs
-* [8-Bit Sfx](https://www.assetstore.unity3d.com/en/#!/content/32831)
+[Little Robot Sound Factory](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:5673)'s free asset pack: [8-Bit Sfx](https://www.assetstore.unity3d.com/en/#!/content/32831)
 
 
 ---
