@@ -8,7 +8,7 @@ module Game {
   
   export let MapBounds = {
     Left: -4,
-    Right: 14,
+    Right: -14,
     Up: 14,
     Down: -4
   }

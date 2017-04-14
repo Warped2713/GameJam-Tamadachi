@@ -138,12 +138,12 @@ class ButtonBehavior extends Sup.Behavior {
       },
       
       right: function() {
-        if (Sup.getActor("Tilemap").getLocalX() < Game.MapBounds.Right) Sup.getActor("Tilemap").moveLocalX(-2);
+        if (Sup.getActor("Tilemap").getLocalX() > Game.MapBounds.Right) Sup.getActor("Tilemap").moveLocalX(-2);
         Sup.log(Sup.getActor("Tilemap").getLocalX());
       },
       
       up: function() {
-        if (Sup.getActor("Tilemap").getLocalY() < Game.MapBounds.Up) Sup.getActor("Tilemap").moveLocalY(-2);
+        if (Sup.getActor("Tilemap").getLocalY() > Game.MapBounds.Up) Sup.getActor("Tilemap").moveLocalY(-2);
         Sup.log(Sup.getActor("Tilemap").getLocalY());
       },
       
