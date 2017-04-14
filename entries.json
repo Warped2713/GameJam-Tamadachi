@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 19,
+  "nextEntryId": 33,
   "nodes": [
     {
       "id": "14",
@@ -35,8 +35,37 @@
                   "id": "17",
                   "name": "FullScreen",
                   "type": "sprite"
+                },
+                {
+                  "id": "27",
+                  "name": "Action",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "30",
+                      "name": "ActionPrefab",
+                      "type": "scene"
+                    }
+                  ]
+                },
+                {
+                  "id": "28",
+                  "name": "Direction",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "29",
+                      "name": "DirPrefab",
+                      "type": "scene"
+                    }
+                  ]
                 }
               ]
+            },
+            {
+              "id": "15",
+              "name": "Font",
+              "type": "font"
             },
             {
               "id": "12",
@@ -49,9 +78,21 @@
               "type": "script"
             },
             {
-              "id": "15",
-              "name": "Font",
-              "type": "font"
+              "id": "26",
+              "name": "CameraBehavior",
+              "type": "script"
+            },
+            {
+              "id": "31",
+              "name": "Panel",
+              "type": null,
+              "children": [
+                {
+                  "id": "32",
+                  "name": "FriendPanelPrefab",
+                  "type": "scene"
+                }
+              ]
             }
           ]
         },
@@ -73,17 +114,54 @@
               "children": [
                 {
                   "id": "10",
-                  "name": "Player",
+                  "name": "Creature",
                   "type": null,
                   "children": [
                     {
                       "id": "11",
                       "name": "Placeholder",
                       "type": "sprite"
+                    },
+                    {
+                      "id": "23",
+                      "name": "CreaturePrefab",
+                      "type": "scene"
+                    },
+                    {
+                      "id": "25",
+                      "name": "CreatureBehavior",
+                      "type": "script"
                     }
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "name": "Tile",
+          "type": null,
+          "children": [
+            {
+              "id": "20",
+              "name": "Tile Map",
+              "type": "tileMap"
+            },
+            {
+              "id": "21",
+              "name": "Tile Set",
+              "type": "tileSet"
+            },
+            {
+              "id": "22",
+              "name": "TilePrefab",
+              "type": "scene"
+            },
+            {
+              "id": "24",
+              "name": "ClickableTileBehavior",
+              "type": "script"
             }
           ]
         }

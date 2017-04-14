@@ -28,6 +28,24 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "ClickableTileBehavior": {
+      "scriptId": "24",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CreatureBehavior": {
+      "scriptId": "25",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CameraBehavior": {
+      "scriptId": "26",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

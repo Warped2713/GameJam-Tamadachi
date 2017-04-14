@@ -17,7 +17,7 @@ class InterfaceBehavior extends Sup.Behavior {
     let pos = new Sup.Math.Vector2(x,y);
 
     // Check if the position intersects one of our button spriteRenderer
-    for ( let button of Sup.getActor("Buttons").getChildren() ) {
+    for ( let button of this.actor.getChildren() ) {
       if ( button.getVisible() )
         {
           //Sup.log("processing " + button.getName());

@@ -9,10 +9,24 @@
           "id": "1",
           "name": "Tilemap",
           "children": [],
-          "components": [],
+          "components": [
+            {
+              "type": "TileMapRenderer",
+              "config": {
+                "formatVersion": 1,
+                "tileMapAssetId": "20",
+                "tileSetAssetId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            }
+          ],
           "position": {
-            "x": 0,
-            "y": 0,
+            "x": -4.5,
+            "y": -4.5,
             "z": 0
           },
           "orientation": {
@@ -39,13 +53,13 @@
               "name": "Tiles",
               "children": [
                 {
-                  "id": "5",
-                  "name": "A",
+                  "id": "30",
+                  "name": "Tile 0",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -61,16 +75,18 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 },
                 {
-                  "id": "6",
-                  "name": "B",
+                  "id": "34",
+                  "name": "Tile 1",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -86,16 +102,18 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 },
                 {
-                  "id": "7",
-                  "name": "C",
+                  "id": "35",
+                  "name": "Tile 2",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -111,16 +129,18 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 },
                 {
-                  "id": "8",
-                  "name": "D",
+                  "id": "36",
+                  "name": "Tile 3",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -136,16 +156,18 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 },
                 {
-                  "id": "9",
-                  "name": "E",
+                  "id": "37",
+                  "name": "Tile 4",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -161,16 +183,18 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 },
                 {
-                  "id": "10",
-                  "name": "F",
+                  "id": "38",
+                  "name": "Tile 5",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -186,16 +210,18 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 },
                 {
-                  "id": "11",
-                  "name": "G",
+                  "id": "39",
+                  "name": "Tile 6",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -211,16 +237,18 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 },
                 {
-                  "id": "12",
-                  "name": "H",
+                  "id": "40",
+                  "name": "Tile 7",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -236,16 +264,18 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 },
                 {
-                  "id": "13",
-                  "name": "I",
+                  "id": "41",
+                  "name": "Tile 8",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
                     "z": 0
                   },
                   "orientation": {
@@ -261,14 +291,16 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "22"
+                  }
                 }
               ],
               "components": [],
               "position": {
                 "x": 0,
                 "y": 0,
-                "z": 0
+                "z": -1
               },
               "orientation": {
                 "x": 0,
@@ -290,14 +322,14 @@
               "name": "Creatures",
               "children": [
                 {
-                  "id": "14",
-                  "name": "Creature 1",
+                  "id": "31",
+                  "name": "Creature 0",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
+                    "z": -1
                   },
                   "orientation": {
                     "x": 0,
@@ -312,7 +344,63 @@
                   },
                   "visible": true,
                   "layer": 0,
-                  "prefab": null
+                  "prefab": {
+                    "sceneAssetId": "23"
+                  }
+                },
+                {
+                  "id": "32",
+                  "name": "Creature 1",
+                  "children": [],
+                  "components": [],
+                  "position": {
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
+                    "z": -1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": {
+                    "sceneAssetId": "23"
+                  }
+                },
+                {
+                  "id": "33",
+                  "name": "Creature 2",
+                  "children": [],
+                  "components": [],
+                  "position": {
+                    "x": 1.1512118577957153,
+                    "y": -0.5611169934272766,
+                    "z": -1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": {
+                    "sceneAssetId": "23"
+                  }
                 }
               ],
               "components": [],
@@ -341,7 +429,7 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 0
+            "z": 1
           },
           "orientation": {
             "x": 0,
@@ -370,7 +458,26 @@
                   "id": "26",
                   "name": "Sprite",
                   "children": [],
-                  "components": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "formatVersion": 1,
+                        "spriteAssetId": "12",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
                   "position": {
                     "x": 0,
                     "y": 0,
@@ -395,7 +502,23 @@
                   "id": "27",
                   "name": "Text",
                   "children": [],
-                  "components": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "formatVersion": 2,
+                        "fontAssetId": "15",
+                        "text": "Text",
+                        "alignment": "center",
+                        "verticalAlignment": "center",
+                        "size": null,
+                        "color": null,
+                        "overrideOpacity": false,
+                        "opacity": null
+                      },
+                      "id": "0"
+                    }
+                  ],
                   "position": {
                     "x": 0,
                     "y": 0,
@@ -440,7 +563,7 @@
                   "visible": true,
                   "layer": 0,
                   "prefab": {
-                    "sceneAssetId": null
+                    "sceneAssetId": "32"
                   }
                 }
               ],
@@ -448,7 +571,7 @@
               "position": {
                 "x": 0,
                 "y": 0,
-                "z": 0
+                "z": -4
               },
               "orientation": {
                 "x": 0,
@@ -493,7 +616,7 @@
                   "visible": true,
                   "layer": 0,
                   "prefab": {
-                    "sceneAssetId": null
+                    "sceneAssetId": "29"
                   }
                 },
                 {
@@ -520,7 +643,7 @@
                   "visible": true,
                   "layer": 0,
                   "prefab": {
-                    "sceneAssetId": null
+                    "sceneAssetId": "29"
                   }
                 },
                 {
@@ -547,7 +670,7 @@
                   "visible": true,
                   "layer": 0,
                   "prefab": {
-                    "sceneAssetId": null
+                    "sceneAssetId": "29"
                   }
                 },
                 {
@@ -574,7 +697,7 @@
                   "visible": true,
                   "layer": 0,
                   "prefab": {
-                    "sceneAssetId": null
+                    "sceneAssetId": "29"
                   }
                 }
               ],
@@ -591,7 +714,7 @@
               "position": {
                 "x": 0,
                 "y": 0,
-                "z": 0
+                "z": -3
               },
               "orientation": {
                 "x": 0,
@@ -636,7 +759,7 @@
                   "visible": true,
                   "layer": 0,
                   "prefab": {
-                    "sceneAssetId": null
+                    "sceneAssetId": "30"
                   }
                 },
                 {
@@ -663,7 +786,7 @@
                   "visible": true,
                   "layer": 0,
                   "prefab": {
-                    "sceneAssetId": null
+                    "sceneAssetId": "30"
                   }
                 },
                 {
@@ -690,7 +813,7 @@
                   "visible": true,
                   "layer": 0,
                   "prefab": {
-                    "sceneAssetId": null
+                    "sceneAssetId": "30"
                   }
                 }
               ],
@@ -707,7 +830,7 @@
               "position": {
                 "x": 0,
                 "y": 0,
-                "z": 0
+                "z": -3
               },
               "orientation": {
                 "x": 0,
@@ -725,11 +848,39 @@
               "prefab": null
             }
           ],
-          "components": [],
+          "components": [
+            {
+              "type": "Camera",
+              "config": {
+                "formatVersion": 1,
+                "mode": "orthographic",
+                "fov": 45,
+                "orthographicScale": 8.4375,
+                "viewport": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 1
+                },
+                "depth": 0,
+                "nearClippingPlane": 0.1,
+                "farClippingPlane": 1000
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "CameraBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
           "position": {
             "x": 0,
             "y": 0,
-            "z": 0
+            "z": 5
           },
           "orientation": {
             "x": 0,
