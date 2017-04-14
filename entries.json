@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 18,
+  "nextEntryId": 19,
   "nodes": [
     {
       "id": "14",
@@ -98,6 +98,11 @@
       "id": "0",
       "name": "Game",
       "type": "script"
+    },
+    {
+      "id": "18",
+      "name": "Main",
+      "type": "scene"
     }
   ]
 }

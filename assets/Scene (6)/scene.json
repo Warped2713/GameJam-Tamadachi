@@ -830,7 +830,16 @@
                       "prefab": null
                     }
                   ],
-                  "components": [],
+                  "components": [
+                    {
+                      "type": "Behavior",
+                      "config": {
+                        "behaviorName": "InterfaceBehavior",
+                        "propertyValues": {}
+                      },
+                      "id": "0"
+                    }
+                  ],
                   "position": {
                     "x": 0,
                     "y": 0,
@@ -870,14 +879,6 @@
                     "shaderAssetId": null
                   },
                   "id": "0"
-                },
-                {
-                  "type": "Behavior",
-                  "config": {
-                    "behaviorName": "InterfaceBehavior",
-                    "propertyValues": {}
-                  },
-                  "id": "1"
                 }
               ],
               "position": {
