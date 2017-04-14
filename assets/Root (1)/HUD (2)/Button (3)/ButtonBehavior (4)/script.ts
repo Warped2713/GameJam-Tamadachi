@@ -126,30 +126,48 @@ class ButtonBehavior extends Sup.Behavior {
     // TODO
     
     action: {
-      attack: function(){ Sup.log("Invoked attack callback");  },
-      pet: function(){ Sup.log("Invoked pet callback");  },
-      feed: function(){ Sup.log("Invoked feed callback");  }
+      attack: function(){ 
+        Sup.log("Invoked attack callback");  
+      },
+      pet: function(){ 
+        Sup.log("Invoked pet callback");  
+      },
+      feed: function(){ 
+        Sup.log("Invoked feed callback");  
+      }
     },
     
     direction: {
       left: function() {
-        if (Sup.getActor("Tilemap").getLocalX() < Game.MapBounds.Left) Sup.getActor("Tilemap").moveLocalX(2);
-        Sup.log(Sup.getActor("Tilemap").getLocalX());
+        if (Sup.getActor("Tilemap").getLocalX() < Game.MapBounds.Left) {
+          Sup.getActor("Tilemap").moveLocalX(2);
+          Sup.getActor("Creatures").moveLocalX(2);
+        }
+        //Sup.log(Sup.getActor("Tilemap").getLocalX());
       },
       
       right: function() {
-        if (Sup.getActor("Tilemap").getLocalX() < Game.MapBounds.Right) Sup.getActor("Tilemap").moveLocalX(-2);
-        Sup.log(Sup.getActor("Tilemap").getLocalX());
+        if (Sup.getActor("Tilemap").getLocalX() > Game.MapBounds.Right) {
+          Sup.getActor("Tilemap").moveLocalX(-2);
+          Sup.getActor("Creatures").moveLocalX(-2);
+        }
+        //Sup.log(Sup.getActor("Tilemap").getLocalX());
       },
       
       up: function() {
-        if (Sup.getActor("Tilemap").getLocalY() < Game.MapBounds.Up) Sup.getActor("Tilemap").moveLocalY(-2);
-        Sup.log(Sup.getActor("Tilemap").getLocalY());
+        if (Sup.getActor("Tilemap").getLocalY() > Game.MapBounds.Up) {
+          Sup.getActor("Tilemap").moveLocalY(-2);
+          Sup.getActor("Creatures").moveLocalY(-2);
+        }
+        //Sup.log(Sup.getActor("Tilemap").getLocalY());
       },
       
       down: function() {
-        if (Sup.getActor("Tilemap").getLocalY() < Game.MapBounds.Down) Sup.getActor("Tilemap").moveLocalY(2);
-        Sup.log(Sup.getActor("Tilemap").getLocalY());
+        if (Sup.getActor("Tilemap").getLocalY() < Game.MapBounds.Down) {
+          Sup.getActor("Tilemap").moveLocalY(2);
+          Sup.getActor("Creatures").moveLocalY(2);
+        }
+        //Sup.log(Sup.getActor("Tilemap").getLocalY());
       }
     },
     

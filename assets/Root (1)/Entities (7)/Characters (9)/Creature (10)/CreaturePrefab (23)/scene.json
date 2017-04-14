@@ -3,7 +3,7 @@
   "nodes": [
     {
       "id": "0",
-      "name": "Actor",
+      "name": "Creature",
       "children": [],
       "components": [
         {
@@ -13,6 +13,24 @@
             "propertyValues": {}
           },
           "id": "0"
+        },
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "formatVersion": 1,
+            "spriteAssetId": "11",
+            "animationId": null,
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "1"
         }
       ],
       "position": {
@@ -27,8 +45,8 @@
         "w": 1
       },
       "scale": {
-        "x": 1,
-        "y": 1,
+        "x": 2,
+        "y": 2,
         "z": 1
       },
       "visible": true,

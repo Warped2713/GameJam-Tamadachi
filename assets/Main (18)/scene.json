@@ -323,12 +323,12 @@
               "children": [
                 {
                   "id": "31",
-                  "name": "Creature 0",
+                  "name": "0",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 1.1512118577957153,
-                    "y": -0.5611169934272766,
+                    "x": 0,
+                    "y": 0,
                     "z": -1
                   },
                   "orientation": {
@@ -350,12 +350,12 @@
                 },
                 {
                   "id": "32",
-                  "name": "Creature 1",
+                  "name": "1",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 1.1512118577957153,
-                    "y": -0.5611169934272766,
+                    "x": 0,
+                    "y": 0,
                     "z": -1
                   },
                   "orientation": {
@@ -377,12 +377,12 @@
                 },
                 {
                   "id": "33",
-                  "name": "Creature 2",
+                  "name": "2",
                   "children": [],
                   "components": [],
                   "position": {
-                    "x": 1.1512118577957153,
-                    "y": -0.5611169934272766,
+                    "x": 0,
+                    "y": 0,
                     "z": -1
                   },
                   "orientation": {
@@ -407,7 +407,7 @@
               "position": {
                 "x": 0,
                 "y": 0,
-                "z": 0
+                "z": 1
               },
               "orientation": {
                 "x": 0,
@@ -508,10 +508,10 @@
                       "config": {
                         "formatVersion": 2,
                         "fontAssetId": "15",
-                        "text": "Text",
-                        "alignment": "center",
+                        "text": "Tamadachi\nVersion 0.1.0",
+                        "alignment": "left",
                         "verticalAlignment": "center",
-                        "size": null,
+                        "size": 32,
                         "color": null,
                         "overrideOpacity": false,
                         "opacity": null
@@ -520,8 +520,8 @@
                     }
                   ],
                   "position": {
-                    "x": 0,
-                    "y": 0,
+                    "x": -7.2,
+                    "y": 3.2,
                     "z": 0
                   },
                   "orientation": {
