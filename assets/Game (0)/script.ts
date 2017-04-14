@@ -9,7 +9,8 @@ module Game {
   export let isFullScreen = false;
   
   export function init() {
-    Sup.loadScene("Scene");  
+    //Sup.loadScene("Scene");
+    Sup.loadScene("Main");
   }
   
 }

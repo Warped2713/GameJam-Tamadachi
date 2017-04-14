@@ -6,6 +6,10 @@
       "parentBehavior": null,
       "properties": [
         {
+          "name": "group",
+          "type": "string"
+        },
+        {
           "name": "callback",
           "type": "string"
         },
@@ -19,6 +23,14 @@
         },
         {
           "name": "allowMultiple",
+          "type": "boolean"
+        },
+        {
+          "name": "flipSpriteH",
+          "type": "boolean"
+        },
+        {
+          "name": "flipSpriteV",
           "type": "boolean"
         }
       ]

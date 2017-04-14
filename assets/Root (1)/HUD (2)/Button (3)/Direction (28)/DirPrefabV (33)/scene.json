@@ -3,7 +3,7 @@
   "nodes": [
     {
       "id": "0",
-      "name": "ActionButton",
+      "name": "DirButtonV",
       "children": [
         {
           "id": "1",
@@ -14,7 +14,7 @@
               "type": "SpriteRenderer",
               "config": {
                 "formatVersion": 1,
-                "spriteAssetId": "16",
+                "spriteAssetId": "34",
                 "animationId": "0",
                 "horizontalFlip": false,
                 "verticalFlip": false,
@@ -86,7 +86,7 @@
             "y": 1,
             "z": 1
           },
-          "visible": true,
+          "visible": false,
           "layer": 0,
           "prefab": null
         }
@@ -97,9 +97,9 @@
           "config": {
             "formatVersion": 2,
             "type": "box",
-            "movable": true,
+            "movable": false,
             "width": 1,
-            "height": 1,
+            "height": 6,
             "offset": {
               "x": 0,
               "y": 0
@@ -119,13 +119,24 @@
           "config": {
             "behaviorName": "ButtonBehavior",
             "propertyValues": {
-              "group": {
-                "type": "string",
-                "value": "action"
+              "padding": {
+                "type": "Sup.Math.Vector2",
+                "value": {
+                  "x": 0,
+                  "y": 3
+                }
               },
               "spriteAsChild": {
                 "type": "boolean",
                 "value": true
+              },
+              "group": {
+                "type": "string",
+                "value": "direction"
+              },
+              "callback": {
+                "type": "string",
+                "value": "right"
               }
             }
           },

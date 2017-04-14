@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 33,
+  "nextEntryId": 37,
   "nodes": [
     {
       "id": "14",
@@ -55,8 +55,23 @@
                   "children": [
                     {
                       "id": "29",
-                      "name": "DirPrefab",
+                      "name": "DirPrefabH",
                       "type": "scene"
+                    },
+                    {
+                      "id": "33",
+                      "name": "DirPrefabV",
+                      "type": "scene"
+                    },
+                    {
+                      "id": "34",
+                      "name": "RightArrow",
+                      "type": "sprite"
+                    },
+                    {
+                      "id": "35",
+                      "name": "UpArrow",
+                      "type": "sprite"
                     }
                   ]
                 }
@@ -93,6 +108,11 @@
                   "type": "scene"
                 }
               ]
+            },
+            {
+              "id": "36",
+              "name": "Sprite 2",
+              "type": "sprite"
             }
           ]
         },
